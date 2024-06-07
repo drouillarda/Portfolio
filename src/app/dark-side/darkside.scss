@@ -5,4 +5,14 @@
     background-color: $vaderBlack;
     display: flex;
     flex-direction: column;
+    &__img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 48rem;
+        margin: 0 auto 0 auto;
+        h1 {
+            color: $imperialGray;
+        }
+    }
 }
