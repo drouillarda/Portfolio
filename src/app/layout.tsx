@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import ChooseYourSide from "./components/ui/ChooseYourSide/ChooseYourSide";
 import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -14,7 +13,7 @@ export default function RootLayout( {children} : Readonly<{children: React.React
   return (
     <html lang="en">
       <body className="wrapper">
-        <ChooseYourSide />
+        {children}
       </body>
     </html>
   );

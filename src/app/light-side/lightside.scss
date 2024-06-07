@@ -1,0 +1,9 @@
+@use "../../../styles/variables" as *;
+@use "../../../styles/mixins" as *;
+
+.lightside {
+    background-color: $jediWhite;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

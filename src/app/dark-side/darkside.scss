@@ -1,0 +1,8 @@
+@use "../../../styles/variables" as *;
+@use "../../../styles/mixins" as *;
+
+.darkside {
+    background-color: $jediWhite;
+    display: flex;
+    flex-direction: column;
+}

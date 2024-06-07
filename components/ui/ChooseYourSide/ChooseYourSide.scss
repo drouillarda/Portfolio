@@ -3,7 +3,7 @@
 
 .chooseYourSide {
     height: 53.75rem;
-    width: 48rem;
+    width: 100%;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -22,16 +22,19 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
-            color: $skywalkerBlue;
             align-items: center;
             font-size: 1.5rem;
+            a {
+                text-decoration: none;
+                color: #00009A;
+            }
         }
         &--absolute {
             position: absolute;
             display: flex;
             justify-content: center;
             width: 100%;
-            color: $skywalkerBlue;
+            color: #00009A;
             font-size: 2rem;
             &--right {
                 margin-left: -1.5rem;
@@ -45,9 +48,12 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
-            color: $sithRed;
             align-items: center;
             font-size: 1.5rem;
+            a {
+                text-decoration: none;
+                color: $sithRed;
+            }
         }
     }
 }

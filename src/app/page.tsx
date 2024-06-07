@@ -1,9 +1,9 @@
-
+import ChooseYourSide from "../../components/ui/ChooseYourSide/ChooseYourSide";
 
 export default function Home() {
   return (
-    <main>
-      <h1>Hello World!</h1>
-    </main>
+      <>
+        <ChooseYourSide />
+      </>
   );
 }
