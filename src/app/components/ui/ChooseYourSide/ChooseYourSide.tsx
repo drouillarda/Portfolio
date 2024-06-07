@@ -21,7 +21,8 @@ export default async function ChooseYourSide() {
           </div>
         </article>
         <article className="chooseYourSide__inner--absolute">
-          <h1>Choose Your Side</h1>
+          <h1>Choose Y</h1>
+          <h1 className="chooseYourSide__inner--absolute--right">our Side</h1>
         </article>
         <article className="chooseYourSide__inner--dark">
           <h2>Dark Side</h2>
