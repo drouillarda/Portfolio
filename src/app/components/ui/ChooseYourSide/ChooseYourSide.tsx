@@ -15,8 +15,8 @@ export default async function ChooseYourSide() {
             <Image
             src="/JediLogo.png"
             alt="Jedi Logo"
-            width={300}
-            height={300}
+            width={150}
+            height={150}
           />
           </div>
         </article>
@@ -30,8 +30,8 @@ export default async function ChooseYourSide() {
             <Image
               src="/Sith-Emblem.png"
               alt="Sith Logo"
-              width={600}
-              height={300}
+              width={300}
+              height={150}
             />
             </div>
         </article>
