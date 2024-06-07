@@ -2,5 +2,11 @@
 @use "../styles/partials/mixins" as *;
 
 .wrapper {
-    background-color: $vaderBlack;
+    display: flex;
+    width: 48rem;
+    margin: 0;
+}
+
+body {
+    margin: 0;
 }
